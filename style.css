@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: #080808;
+    color: #fff;
+}
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+
+}
+h1 {
+    font-size: 70px;
+    margin: 0;
+}
+.banner-img {
+    background-image: url(images/pexels-atc-comm-photo-306763.jpg);
+    -webkit-back-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    filter: blur(3px);
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(red, green, blue, alpha);
+    color: #fff;
+    font-weight: bold;
+    border: 10px inset #fff;
+
+}
+.banner-text p{
+    font-family: roboto;
+    font-size: 18px;
+
+}
+.banner-text button {
+    background: white;
+    border: none;
+    color: black;
+    padding: 15px 40px;
+    font-family: big john;
+    
+}
+a{
+    display: inline-block;
+    padding: 10px 50px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.nav-area {
+    width: 800px;
+    height: 100px;
+    background: grey;
+    text-align: center;
+    margin: 20px auto;
+
+}
+.nav-area::before {
+    left: -25px;
+    top: 25px;
+
+}
+.nav-area::after {
+    right: -25px;
+    top: 25px;
+}
+.nav-area a{
+    text-decoration: ;
+    font-family: big john;
+    color: #fff;
+    padding: 15px 30px;
+    line-height: 3.;
+
+}
+.nav-area:hover {
+    background: #262626;
+}
+
+/*------About Bliss-----*/
+#About-Me {
+    padding: 80px 0;
+    color: white;
+    background-color: #262626;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.about-col-1 {
+    flex-basis: 50%;
+
+}
+.about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+.about-col-2 {
+    flex-basis: 60%;
+
+}
+
+/*-------Contact------*/
+#contact {
+    flex-basis: 35%;
+    
+}
+.contact-right {
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+
+}
+.contact-left p i {
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+.social-icons {
+    margin-top: 30px;
+
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transform: transform 0.5s;
+}
+.social-icons a:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+
+}
+.btn.btn2 {
+    display: inline-block;
+    background: #ff004f;
+}
+.contact-right form {
+    width: 100%;
+}
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+form .btn2 {
+    padding: 14px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
